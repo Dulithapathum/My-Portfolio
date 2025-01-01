@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .custom-link {
+    @apply relative cursor-pointer text-[19px] py-[2px] px-[18px] lg:py-[8px] lg:px-[36px] rounded-[30px] inline-block text-main-color capitalize align-middle overflow-hidden border border-white-alpha-40 bg-white-alpha-25 transition-all duration-300 ease-linear hover:text-white;
+  }
+
+  .custom-link::before {
+    content: "";
+    @apply absolute top-0 left-0 w-0 h-full -z-10 bg-main-color duration-300 transition-all;
+  }
+
+  .custom-link:hover::before {
+    @apply w-full;
+  }
+}
