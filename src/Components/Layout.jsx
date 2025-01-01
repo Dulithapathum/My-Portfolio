@@ -7,7 +7,7 @@ const Layout = () => {
       <div className="min-h-[80vh] sm:w-[75%] sm:h-[calc(100vh-70px)] bg-white-alpha-25 rounded-xl  sm:rounded-[30px]">
         <Outlet />
       </div>
-      <div className="min-h-[8vh] sm:min-w-[60px] bg-white-alpha-25 sm:min-h-[400px] rounded-xl sm:rounded-[20px]">
+      <div className="min-h-[8vh] sm:min-w-[60px] bg-white-alpha-25 sm:min-h-[300px] rounded-xl sm:rounded-[20px]">
         <Header />
       </div>
     </div>
