@@ -132,10 +132,10 @@ const About = () => {
             </div>
           </div>
           <div className="flex w-full space-x-8 mb-6 justify-evenly lg:justify-normal">
-            <Link to={"/"} className="custom-link">
+            <Link to={"/"} className="custom-link text-[15px] px-4 sm:px-10 ">
               Download CV
             </Link>
-            <Link to={"/"} className="custom-link">
+            <Link to={"/"} className="custom-link text-[15px] px-4 sm:px-10">
               Contact Me
             </Link>
           </div>
