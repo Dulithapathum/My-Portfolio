@@ -10,12 +10,12 @@ const About = () => {
   };
 
   return (
-    <div className="px-5">
+    <div className="px-5 ">
       <h1 className="text-center font-semibold text-4xl text-blue-dark capitalize my-10">
         About me
       </h1>
-      <div className="w-full flex justify-evenly">
-        <div className="w-[30%]">
+      <div className="w-full flex flex-col lg:flex-row items-center lg:items-start justify-evenly">
+        <div className="lg:w-[30%] w-full flex justify-center ">
           <div className="max-w-[350px] max-h-[350px] bg-white-alpha-25 border-2 rounded-lg border-white-alpha-40">
             <img
               src={UserProfile.img}
@@ -24,13 +24,15 @@ const About = () => {
             />
           </div>
         </div>
-        <div className="w-[60%] flex flex-col gap-2">
+        <div className="lg:w-[60%] w-full flex flex-col gap-2">
           <p className="text-blue-dark text-lg text-justify">
             {UserProfile.about}
           </p>
           <div>
-            <h2 className="text-2xl font-semibold my-4">Skills</h2>
-            <div className="flex flex-wrap gap-2">
+            <h2 className="text-2xl font-semibold my-4  text-center lg:text-start">
+              Skills
+            </h2>
+            <div className="flex flex-wrap gap-2  ">
               {UserProfile.skills.map((item, index) => (
                 <div
                   key={index}
@@ -42,8 +44,10 @@ const About = () => {
             </div>
           </div>
           <div>
-            <h2 className="text-2xl font-semibold my-4">Tools</h2>
-            <div className="flex flex-wrap gap-2">
+            <h2 className="text-2xl font-semibold my-4 text-center lg:text-start">
+              Tools
+            </h2>
+            <div className="flex flex-wrap gap-2 ">
               {UserProfile.tools.map((item, index) => (
                 <div
                   key={index}
@@ -55,7 +59,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="flex space-x-4 my-4">
+          <div className="flex space-x-4 my-4 justify-evenly lg:justify-normal">
             <button
               className={`text-2xl font-[500] text-blue-dark relative pb-1 before:absolute before:left-0 before:bottom-0 before:h-[3px]  before:transition-width before:duration-300 before:bg-blue-dark ${
                 activeTab === "education"
@@ -127,9 +131,9 @@ const About = () => {
               ))}
             </div>
           </div>
-          <div className="flex w-full space-x-8 mb-6">
+          <div className="flex w-full space-x-8 mb-6 justify-evenly lg:justify-normal">
             <Link to={"/"} className="custom-link">
-              Download Cv
+              Download CV
             </Link>
             <Link to={"/"} className="custom-link">
               Contact Me
