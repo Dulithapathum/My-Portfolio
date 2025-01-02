@@ -14,7 +14,7 @@ export const Projects = [
     Created: "4 Dec 2020",
     Technologies: "HTML, CSS, React",
     Role: "Frontend",
-    link: "https://www.productlanding.com", // Added https://
+    link: "https://www.productlanding.comdfvvvvvvvvvvvvvvvvvvvvvvvvvvvvv",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ export const Projects = [
     Created: "15 Mar 2021",
     Technologies: "HTML, CSS, JavaScript",
     Role: "Full Stack",
-    link: "https://www.myportfolio.com", // Added https://
+    link: "https://www.myportfolio.com",
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ export const Projects = [
     Created: "12 Jul 2021",
     Technologies: "React, Redux, Firebase",
     Role: "Frontend",
-    link: "https://www.onlinestore.com", // Added https://
+    link: "https://www.onlinestore.com",
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ export const Projects = [
     Created: "9 Sep 2021",
     Technologies: "Vue.js, Node.js, MongoDB",
     Role: "Full Stack",
-    link: "https://www.taskmanager.com", // Added https://
+    link: "https://www.taskmanager.com",
   },
   {
     id: 5,
@@ -54,7 +54,7 @@ export const Projects = [
     Created: "20 Jan 2022",
     Technologies: "WordPress, PHP, MySQL",
     Role: "Backend",
-    link: "https://www.blogsite.com", // Added https://
+    link: "https://www.blogsite.com",
   },
   {
     id: 6,
@@ -64,7 +64,7 @@ export const Projects = [
     Created: "3 May 2022",
     Technologies: "Angular, TypeScript, REST API",
     Role: "Frontend",
-    link: "https://www.weatherapp.com", // Added https://
+    link: "https://www.weatherapp.com",
   },
 ];
 

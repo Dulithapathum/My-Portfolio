@@ -7,7 +7,7 @@ const PortfolioItem = ({ item }) => {
     navigate(`/portfolio/project/${item.id}`);
   };
   return (
-    <div className="max-w-[300px]  ">
+    <div className="max-w-[300px]   ">
       <div className="p-3 bg-white-alpha-25 rounded-lg border border-white-alpha-40 ">
         <img
           src={item.img}
