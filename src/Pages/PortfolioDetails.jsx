@@ -1,11 +1,17 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import { Projects } from "../assets/data";
+import { motion } from "framer-motion";
 const PortfolioDetails = () => {
   const { id } = useParams();
   const project = Projects.find((proj) => proj.id === parseInt(id));
   return (
-    <div className="w-full px-5 flex flex-col items-center ">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      className="w-full px-5 flex flex-col items-center "
+    >
       <h1 className="text-center  font-semibold text-4xl text-blue-dark capitalize my-10">
         {project.title}
       </h1>
@@ -55,7 +61,7 @@ const PortfolioDetails = () => {
       >
         Back
       </Link>
-    </div>
+    </motion.div>
   );
 };
 

@@ -8,10 +8,16 @@ import {
   FaStackOverflow,
 } from "react-icons/fa";
 import { UserProfile } from "../assets/data";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div className="w-full  h-[80%]">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      className="w-full  h-[80%]"
+    >
       <h1 className="text-center  font-semibold text-4xl text-blue-dark capitalize my-10">
         Contact me
       </h1>
@@ -116,7 +122,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

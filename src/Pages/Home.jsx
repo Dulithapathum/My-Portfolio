@@ -1,10 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { UserProfile } from "../assets/data";
-
+import { motion } from "framer-motion";
 const Home = () => {
   return (
-    <div className="w-[100%] h-full flex flex-col lg:flex-row justify-evenly lg:justify-between px-5 lg:px-16 items-center ">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      className="w-[100%] h-full flex flex-col lg:flex-row justify-evenly lg:justify-between px-5 lg:px-16 items-center "
+    >
       <div className="lg:order-1 order-2 flex flex-col lg:gap-1 text-center lg:text-left">
         <p className="text-3xl lg:text-4xl">Hello, I'm</p>
         <h1 className="text-[37px] lg:text-[60px] font-semibold text-blue-dark uppercase leading-none">
@@ -27,7 +32,7 @@ const Home = () => {
           className="w-[280px] lg:w-[360px] border-[8px] rounded-[50%] border-white-alpha-40 bg-white-alpha-25"
         />
       </div>
-    </div>
+    </motion.div>
   );
 };
 

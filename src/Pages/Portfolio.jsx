@@ -1,9 +1,14 @@
 import React from "react";
 import { Projects } from "../assets/data";
 import PortfolioItem from "../Components/PortfolioItem";
+import { motion } from "framer-motion";
 const Portfolio = () => {
   return (
-    <section>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
       <div>
         <h1 className="text-center  font-semibold text-4xl text-blue-dark capitalize my-10">
           Recent Work
@@ -14,7 +19,7 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
-    </section>
+    </motion.div>
   );
 };
 

@@ -3,7 +3,7 @@ import { MdHome } from "react-icons/md";
 import { IoPersonCircleSharp, IoMail } from "react-icons/io5";
 import { MdWork } from "react-icons/md";
 import { Link, useLocation } from "react-router-dom";
-
+import { motion } from "framer-motion";
 const Header = () => {
   const location = useLocation();
 
@@ -11,7 +11,11 @@ const Header = () => {
 
   return (
     <ul className="w-full sm:h-[300px] flex sm:flex-col justify-evenly items-center min-h-[8vh]">
-      <li>
+      <motion.li
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 1 }}
+      >
         <Link to="/">
           <MdHome
             className={`text-2xl transition-colors ${
@@ -21,8 +25,12 @@ const Header = () => {
             }`}
           />
         </Link>
-      </li>
-      <li>
+      </motion.li>
+      <motion.li
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 1.5 }}
+      >
         <Link to="/about">
           <IoPersonCircleSharp
             className={`text-2xl transition-colors ${
@@ -32,8 +40,12 @@ const Header = () => {
             }`}
           />
         </Link>
-      </li>
-      <li>
+      </motion.li>
+      <motion.li
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 2 }}
+      >
         <Link to="/portfolio">
           <MdWork
             className={`text-2xl transition-colors ${
@@ -43,8 +55,12 @@ const Header = () => {
             }`}
           />
         </Link>
-      </li>
-      <li>
+      </motion.li>
+      <motion.li
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 2.5 }}
+      >
         <Link to="/contact">
           <IoMail
             className={`text-2xl transition-colors ${
@@ -54,7 +70,7 @@ const Header = () => {
             }`}
           />
         </Link>
-      </li>
+      </motion.li>
     </ul>
   );
 };
