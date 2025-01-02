@@ -14,7 +14,7 @@ export const Projects = [
     Created: "4 Dec 2020",
     Technologies: "HTML, CSS, React",
     Role: "Frontend",
-    link: "www.productlanding.com",
+    link: "https://www.productlanding.comdfvvvvvvvvvvvvvvvvvvvvvvvvvvvvv",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ export const Projects = [
     Created: "15 Mar 2021",
     Technologies: "HTML, CSS, JavaScript",
     Role: "Full Stack",
-    link: "www.myportfolio.com",
+    link: "https://www.myportfolio.com",
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ export const Projects = [
     Created: "12 Jul 2021",
     Technologies: "React, Redux, Firebase",
     Role: "Frontend",
-    link: "www.onlinestore.com",
+    link: "https://www.onlinestore.com",
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ export const Projects = [
     Created: "9 Sep 2021",
     Technologies: "Vue.js, Node.js, MongoDB",
     Role: "Full Stack",
-    link: "www.taskmanager.com",
+    link: "https://www.taskmanager.com",
   },
   {
     id: 5,
@@ -54,7 +54,7 @@ export const Projects = [
     Created: "20 Jan 2022",
     Technologies: "WordPress, PHP, MySQL",
     Role: "Backend",
-    link: "www.blogsite.com",
+    link: "https://www.blogsite.com",
   },
   {
     id: 6,
@@ -64,7 +64,7 @@ export const Projects = [
     Created: "3 May 2022",
     Technologies: "Angular, TypeScript, REST API",
     Role: "Frontend",
-    link: "www.weatherapp.com",
+    link: "https://www.weatherapp.com",
   },
 ];
 
@@ -93,6 +93,24 @@ export const UserProfile = {
     "React",
     "Vue.js",
     "Python",
+    "TypeScript",
+    "SASS",
+    "Tailwind CSS",
+    "Angular",
+    "REST API",
+    "jQuery",
+  ],
+  tools: [
+    "Figma",
+    "Adobe XD",
+    "Canva",
+    "Visual Studio Code",
+    "Git",
+    "JIRA",
+    "Postman",
+    "Notion",
+    "Chrome DevTools",
+    "Webpack",
   ],
   experience: [
     {
