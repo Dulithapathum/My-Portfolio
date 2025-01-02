@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
 const PortfolioItem = ({ item }) => {
   const navigate = useNavigate();
 
@@ -7,7 +8,12 @@ const PortfolioItem = ({ item }) => {
     navigate(`/portfolio/project/${item.id}`);
   };
   return (
-    <div className="max-w-[300px]   ">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      className="max-w-[300px]   "
+    >
       <div className="p-3 bg-white-alpha-25 rounded-lg border border-white-alpha-40 ">
         <img
           src={item.img}
@@ -22,7 +28,7 @@ const PortfolioItem = ({ item }) => {
       >
         View Project
       </button>
-    </div>
+    </motion.div>
   );
 };
 

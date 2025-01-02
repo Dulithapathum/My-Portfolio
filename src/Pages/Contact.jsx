@@ -8,15 +8,21 @@ import {
   FaStackOverflow,
 } from "react-icons/fa";
 import { UserProfile } from "../assets/data";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div className="w-full  h-[80%]">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      className="w-full  h-[80%]"
+    >
       <h1 className="text-center  font-semibold text-4xl text-blue-dark capitalize my-10">
         Contact me
       </h1>
-      <div className="w-full flex flex-col justify-evenly lg:flex-row px-4 h-full  ">
-        <form className="w-[50%] px-8  flex-col justify-evenly  hidden lg:flex ">
+      <div className="w-full flex flex-col  items-center lg:items-stretch justify-evenly lg:flex-row px-4 h-full  ">
+        <form className="w-full lg:w-[50%] px-8  flex-col justify-evenly space-y-3  flex  mb-6 lg:mb-0 ">
           <div>
             <input
               type="text"
@@ -49,27 +55,27 @@ const Contact = () => {
             ></textarea>
           </div>
           <div>
-            <button type="submit" className="custom-link -mt-2">
+            <button type="submit" className="custom-link py-2 lg:-mt-2">
               Send message
             </button>
           </div>
         </form>
-        <div className="lg:w-[50%] px-8 flex flex-col gap-5 lg:mt-5 ">
-          <div className="flex flex-col items-center lg:items-start">
+        <div className="w-full lg:w-[50%] px-8 flex flex-col gap-5   lg:mt-5 ">
+          <div className="flex flex-col ">
             <h3 className="font-[500] text-2xl">Email :</h3>
             <p className="text-xl font-[400] text-blue-dark mt-1">
               {UserProfile.email}
             </p>
           </div>
-          <div className="flex flex-col items-center lg:items-start">
+          <div className="flex flex-col ">
             <h3 className="font-[500] text-2xl">Contact Number :</h3>
             <p className="text-xl font-[400] text-blue-dark mt-1">
               {UserProfile.PhoneNo}
             </p>
           </div>
-          <div className="flex flex-col   items-center lg:items-start">
+          <div className="flex flex-col   ">
             <h3 className="font-[500] text-2xl">Follow Me :</h3>
-            <div className="flex items-center gap-2 justify-center lg:justify-evenly w-[100%] lg:w-[70%] mt-3">
+            <div className="flex items-center gap-2  flex-wrap  w-[100%] lg:w-[70%] my-3">
               <a
                 href={UserProfile.social[0]}
                 target="_blank"
@@ -116,7 +122,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

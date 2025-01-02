@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { UserProfile } from "../assets/data";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const About = () => {
   const [activeTab, setActiveTab] = useState("education");
@@ -10,13 +11,18 @@ const About = () => {
   };
 
   return (
-    <div className="px-5 ">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      className="px-5 "
+    >
       <h1 className="text-center font-semibold text-4xl text-blue-dark capitalize my-10">
         About me
       </h1>
       <div className="w-full flex flex-col lg:flex-row items-center lg:items-start justify-evenly">
         <div className="lg:w-[30%] w-full flex justify-center ">
-          <div className="max-w-[350px] max-h-[350px] bg-white-alpha-25 border-2 rounded-lg border-white-alpha-40">
+          <div className="max-w-[350px] max-h-[350px] bg-white-alpha-25 border-2 rounded-lg border-white-alpha-40 mb-6">
             <img
               src={UserProfile.img}
               alt={UserProfile.name}
@@ -141,7 +147,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
