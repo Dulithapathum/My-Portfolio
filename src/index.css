@@ -24,4 +24,8 @@
   .hide-scrollbar::-webkit-scrollbar {
     display: none;
   }
+
+  .transition-width {
+    transition: width 3s ease-in-out;
+  }
 }
