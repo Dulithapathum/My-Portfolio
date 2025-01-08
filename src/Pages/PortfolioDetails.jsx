@@ -12,7 +12,7 @@ const PortfolioDetails = () => {
       transition={{ duration: 0.5 }}
       className="w-full px-5 flex flex-col items-center "
     >
-      <h1 className="text-center  font-semibold text-4xl text-blue-dark capitalize my-10">
+      <h1 className="text-center  font-semibold text-4xl text-second-color capitalize my-10">
         {project.title}
       </h1>
       <div className="flex flex-col lg:flex-row w-full">
@@ -27,22 +27,22 @@ const PortfolioDetails = () => {
         </div>
         <div className="lg:w-[50%] w-full mt-5 lg:mt-0 ">
           <ul className="flex  flex-col flex-wrap space-y-4 justify-center h-full ml-6">
-            <li className="font-semibold text-xl text-blue-dark">
+            <li className="font-semibold text-xl text-second-color">
               Created -{" "}
               <span className="font-[500] text-lg">{project.Created}</span>
             </li>
-            <li className="font-semibold text-xl text-blue-dark capitalize">
+            <li className="font-semibold text-xl text-second-color capitalize">
               Technologies used -{" "}
               <span className="font-[500] text-lg ">
                 {project.Technologies}
               </span>
             </li>
-            <li className="font-semibold text-xl text-blue-dark">
+            <li className="font-semibold text-xl text-second-color">
               Role - <span className="font-[500] text-lg">{project.Role}</span>
             </li>
-            <li className="font-semibold text-xl text-blue-dark flex-wrap break-all">
+            <li className="font-semibold text-xl text-second-color flex-wrap break-all">
               View Online -
-              <span className="font-[500] text-lg text-main-color hover:text-blue-dark transition-colors">
+              <span className="font-[500] text-lg text-main-color hover:text-second-color transition-colors">
                 {" "}
                 <a href={project.link} target="_blank" className="text-wrap">
                   {project.link}
@@ -52,7 +52,7 @@ const PortfolioDetails = () => {
           </ul>
         </div>
       </div>
-      <p className="text-xl font-[500] text-blue-dark text-justify my-5 break-words ">
+      <p className="text-xl font-[500] text-second-color text-justify my-5 break-words ">
         {project.desc}
       </p>
       <Link
