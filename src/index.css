@@ -9,7 +9,7 @@
 
   .custom-link::before {
     content: "";
-    @apply absolute top-0 left-0 w-0 h-full -z-10 bg-main-color duration-300 transition-all;
+    @apply absolute top-0 left-0 w-0 h-full -z-30 bg-main-color duration-300 transition-all;
   }
 
   .custom-link:hover::before {

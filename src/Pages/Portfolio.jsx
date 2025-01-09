@@ -10,7 +10,7 @@ const Portfolio = () => {
       transition={{ duration: 0.5 }}
     >
       <div>
-        <h1 className="text-center  font-semibold text-4xl text-blue-dark capitalize my-10">
+        <h1 className="text-center  font-semibold text-4xl text-second-color capitalize my-10">
           Recent Work
         </h1>
         <div className=" flex flex-wrap justify-evenly ">

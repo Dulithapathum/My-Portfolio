@@ -12,13 +12,13 @@ const Home = () => {
     >
       <div className="lg:order-1 order-2 flex flex-col lg:gap-1 text-center lg:text-left">
         <p className="text-3xl lg:text-4xl">Hello, I'm</p>
-        <h1 className="text-[37px] lg:text-[60px] font-semibold text-blue-dark uppercase leading-none">
+        <h1 className="text-[37px] lg:text-[60px] font-semibold text-second-color uppercase leading-none">
           {UserProfile.name}
         </h1>
         <h2 className="text-2xl">{UserProfile.role}</h2>
         <div className="flex gap-5 mt-4 justify-center lg:justify-normal">
           <Link to="/about" className="custom-link ">
-            <small className="">More about me</small>
+            <small>More about me</small>
           </Link>
           <Link to="/portfolio" className="custom-link">
             <small>Portfolio</small>

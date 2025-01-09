@@ -17,7 +17,7 @@ const About = () => {
       transition={{ duration: 0.5 }}
       className="px-5 "
     >
-      <h1 className="text-center font-semibold text-4xl text-blue-dark capitalize my-10">
+      <h1 className="text-center font-semibold text-4xl text-second-color capitalize my-10">
         About me
       </h1>
       <div className="w-full flex flex-col lg:flex-row items-center lg:items-start justify-evenly">
@@ -31,7 +31,7 @@ const About = () => {
           </div>
         </div>
         <div className="lg:w-[60%] w-full flex flex-col gap-2">
-          <p className="text-blue-dark text-lg text-justify">
+          <p className="text-second-color text-lg text-justify">
             {UserProfile.about}
           </p>
           <div>
@@ -42,7 +42,7 @@ const About = () => {
               {UserProfile.skills.map((item, index) => (
                 <div
                   key={index}
-                  className="cursor-pointer text-[16px] py-[2px] px-[13px] lg:py-[6px] lg:px-[30px] rounded-[30px] text-blue-dark capitalize border border-white-alpha-40 bg-white-alpha-25 transition-all duration-300 ease-linear hover:text-main-color"
+                  className="cursor-pointer text-[16px] py-[2px] px-[13px] lg:py-[6px] lg:px-[30px] rounded-[30px] text-second-color capitalize border border-white-alpha-40 bg-white-alpha-25 transition-all duration-300 ease-linear hover:text-main-color"
                 >
                   {item}
                 </div>
@@ -57,7 +57,7 @@ const About = () => {
               {UserProfile.tools.map((item, index) => (
                 <div
                   key={index}
-                  className="cursor-pointer text-[16px] py-[2px] px-[13px] lg:py-[6px] lg:px-[30px] rounded-[30px] text-blue-dark capitalize border border-white-alpha-40 bg-white-alpha-25 transition-all duration-300 ease-linear hover:text-main-color"
+                  className="cursor-pointer text-[16px] py-[2px] px-[13px] lg:py-[6px] lg:px-[30px] rounded-[30px] text-second-color capitalize border border-white-alpha-40 bg-white-alpha-25 transition-all duration-300 ease-linear hover:text-main-color"
                 >
                   {item}
                 </div>
@@ -67,20 +67,20 @@ const About = () => {
 
           <div className="flex space-x-4 my-4 justify-evenly lg:justify-normal">
             <button
-              className={`text-2xl font-[500] text-blue-dark relative pb-1 before:absolute before:left-0 before:bottom-0 before:h-[3px]  before:transition-width before:duration-300 before:bg-blue-dark ${
+              className={`text-2xl font-[500] text-second-color relative pb-1 before:absolute before:left-0 before:bottom-0 before:h-[3px]  before:transition-width before:duration-300 before:bg-second-color ${
                 activeTab === "education"
                   ? " before:w-full   "
-                  : "before:w-0 hover:before:w-full hover:text-blue-dark "
+                  : "before:w-0 hover:before:w-full hover:text-second-color "
               }`}
               onClick={() => handleTabClick("education")}
             >
               Education
             </button>
             <button
-              className={`text-2xl font-[500] text-blue-dark relative pb-1 before:absolute before:left-0 before:bottom-0 before:h-[3px]  before:transition-width before:duration-300 before:bg-blue-dark ${
+              className={`text-2xl font-[500] text-second-color relative pb-1 before:absolute before:left-0 before:bottom-0 before:h-[3px]  before:transition-width before:duration-300 before:bg-second-color ${
                 activeTab === "experience"
                   ? " before:w-full"
-                  : "before:w-0 hover:before:w-full hover:text-blue-dark "
+                  : "before:w-0 hover:before:w-full hover:text-second-color "
               }`}
               onClick={() => handleTabClick("experience")}
             >
@@ -103,7 +103,7 @@ const About = () => {
                   <span className="block text-main-color text-md mb-2">
                     {item.year}
                   </span>
-                  <h4 className="text-xl font-semibold text-blue-dark mb-2">
+                  <h4 className="text-xl font-semibold text-second-color mb-2">
                     {item.degree}
                     <span className="font-normal"> - {item.university}</span>
                   </h4>
@@ -128,7 +128,7 @@ const About = () => {
                   <span className="block text-main-color text-md mb-2">
                     {item.year}
                   </span>
-                  <h4 className="text-xl font-semibold text-blue-dark mb-2">
+                  <h4 className="text-xl font-semibold text-second-color mb-2">
                     {item.position}
                     <span className="font-normal"> - {item.company}</span>
                   </h4>
@@ -141,7 +141,10 @@ const About = () => {
             <Link to={"/"} className="custom-link text-[15px] px-4 sm:px-10 ">
               Download CV
             </Link>
-            <Link to={"/"} className="custom-link text-[15px] px-4 sm:px-10">
+            <Link
+              to={"/contact"}
+              className="custom-link text-[15px] px-4 sm:px-10"
+            >
               Contact Me
             </Link>
           </div>

@@ -21,7 +21,7 @@ const Header = () => {
             className={`text-2xl transition-colors ${
               isActive("/")
                 ? "text-main-color"
-                : "text-blue-dark hover:text-main-color"
+                : "text-second-color hover:text-main-color"
             }`}
           />
         </Link>
@@ -36,7 +36,7 @@ const Header = () => {
             className={`text-2xl transition-colors ${
               isActive("/about")
                 ? "text-main-color"
-                : "text-blue-dark hover:text-main-color"
+                : "text-second-color hover:text-main-color"
             }`}
           />
         </Link>
@@ -51,7 +51,7 @@ const Header = () => {
             className={`text-2xl transition-colors ${
               isActive("/portfolio")
                 ? "text-main-color"
-                : "text-blue-dark hover:text-main-color"
+                : "text-second-color hover:text-main-color"
             }`}
           />
         </Link>
@@ -66,7 +66,7 @@ const Header = () => {
             className={`text-2xl transition-colors ${
               isActive("/contact")
                 ? "text-main-color"
-                : "text-blue-dark hover:text-main-color"
+                : "text-second-color hover:text-main-color"
             }`}
           />
         </Link>

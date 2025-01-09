@@ -8,18 +8,23 @@ export default {
       },
       colors: {
         "main-color": "#0485cf",
-        blue: "#0000ff",
-        "blue-dark": "#18293c",
-        orange: "#ffa500",
-        "green-yellow": "#cddc39",
-        "pink-light": "#efa2b4",
-        "cyan-light": "#aef1ee",
-        white: "#ffffff",
+        "second-color": "#18293c",
         "white-alpha-40": "rgba(255, 255, 255, 0.40)",
         "white-alpha-25": "rgba(255, 255, 255, 0.25)",
       },
       backgroundImage: {
-        "custom-linear": "linear-gradient(160deg, #0094e9a3 0%, #80d0c7b1 50%)",
+        "custom-linear":
+          "linear-gradient(160deg, #0094e9a3 10%, #80d0c7b1 50%)",
+      },
+      keyframes: {
+        gradientAnimation: {
+          "0%": { backgroundPosition: "0% 50%" },
+          "50%": { backgroundPosition: "100% 50%" },
+          "100%": { backgroundPosition: "0% 50%" },
+        },
+      },
+      animation: {
+        gradient: "gradientAnimation 10s ease infinite",
       },
     },
   },
