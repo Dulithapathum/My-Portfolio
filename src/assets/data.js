@@ -1,6 +1,15 @@
 import Project01 from "./portfolio/1.jpg";
 import Project02 from "./portfolio/2.jpg";
 import Project03 from "./portfolio/3.jpg";
+import Project04 from "./portfolio/4.jpg";
+import Project05 from "./portfolio/5.jpg";
+import Project06 from "./portfolio/6.jpg";
+import Project07 from "./portfolio/7.jpg";
+import Project08 from "./portfolio/8.jpg";
+import Project09 from "./portfolio/9.jpg";
+import Project10 from "./portfolio/10.jpg";
+import Project11 from "./portfolio/11.jpg";
+
 import Profile01 from "./About.png";
 export const Projects = [
   {
@@ -32,6 +41,77 @@ export const Projects = [
     Technologies: "WordPress",
     Role: "Full Stack",
     link: "https://flich.lk",
+  },
+  {
+    id: 4,
+    img: Project04,
+    title: "QR Tree Details Scanner",
+    desc: "Developed a dynamic web application that allows users to scan QR codes to access detailed information about trees, including species, location, and characteristics. Leveraged PHP and SQL for backend development and JavaScript for creating interactive user experiences. The platform enhances environmental awareness and data accessibility.",
+    Created: "11 Nov 2024",
+    Technologies: "PHP, SQL, JavaScript",
+    Role: "Full Stack",
+    link: "https://greenhat.lk",
+  },
+  {
+    id: 5,
+    img: Project05,
+    title: "Train Monitoring System",
+    desc: "Our final project for the Digital Control Systems Technology module addresses the persistent issue of train delays, aiming to enhance the efficiency and reliability of railway transportation. Leveraging the ESP32 microcontroller paired with a GPS module, the system offers precise real-time location tracking of trains. Combined with a user-friendly web application built using React and Bootstrap, it provides passengers with real-time updates on train locations and expected arrival times, revolutionizing the commuter experience with practical and innovative solutions.",
+    Created: "03 Mar 2024",
+    Technologies:
+      "React, Bootstrap, Arduino,MongoDB,Node js,GitHub,Tailwind CSS,Express js",
+    Role: "Full Stack",
+    link: "https://github.com/Dulithapathum/digital-control-system-frontend.git",
+  },
+  {
+    id: 6,
+    img: Project06,
+    title: "Weather App",
+    desc: "Designed and developed a simple yet interactive weather application using HTML, CSS, and JavaScript. The app fetches real-time weather data from an API and displays it with a user-friendly interface, allowing users to check current weather conditions and forecasts for their selected location.",
+    Created: "22 feb 2024",
+    Technologies: "HTML, CSS, JavaScript",
+    Role: "Front End",
+    link: "https://github.com/Dulithapathum/Weather-App.git",
+  },
+  {
+    id: 7,
+    img: Project07,
+    title: "Facebook Clone",
+    desc: "Created a front-end replica of the Facebook website using HTML and CSS. This project demonstrates skills in UI/UX design and layout structuring, focusing on creating a responsive and visually accurate clone of the original platform.",
+    Created: "24 jul 2024",
+    Technologies: "HTML, CSS",
+    Role: "Front End",
+    link: "https://github.com/Dulithapathum/facebook-clone.git",
+  },
+  {
+    id: 8,
+    img: Project08,
+    title: "Google Home Clone",
+    desc: "Developed a front-end clone of the Google homepage using HTML and Tailwind CSS. This project showcases proficiency in using Tailwind CSS for styling and achieving a pixel-perfect and responsive layout of one of the most iconic web interfaces.",
+    Created: "20 oct 2024",
+    Technologies: "HTML, Tailwind CSS",
+    Role: "Front End",
+    link: "https://github.com/Dulithapathum/Google-Homepage-with-Tailwind-CSS.git",
+  },
+  {
+    id: 9,
+    img: Project09,
+    title: "Nike Shoes Website",
+    desc: "Welcome to the Nike Shop project! This fully responsive e-commerce website was developed to showcase my web development skills using HTML, CSS, Bootstrap, and JavaScript. It features a modern, clean UI/UX design inspired by Nike's brand identity. Key functionalities include a dynamic off-canvas navigation menu, detailed product categories with high-quality images, a customer review section, a user-friendly contact form, and social media integration to foster user interaction.",
+    Created: "10 jan 2024",
+    Technologies: "HTML, CSS, Bootstrap, JavaScript, Boxicons",
+    Role: "Front End",
+    link: "https://github.com/Dulithapathum/NIKE-Shoes-Web-Site-Bootstrap.git",
+  },
+  {
+    id: 10,
+    img: Project10,
+    title: "Tomy Restaurant Website",
+    desc: "Created a responsive and interactive restaurant website named Tomy Restaurant, featuring a navigation menu, home section, about section, services, menu of the week, contact form, and footer. The website includes a light and dark theme toggle, smooth scrolling animations using ScrollReveal, and a user-friendly interface. Developed with HTML, CSS, and JavaScript, the site provides a seamless experience across devices and is fully customizable for various restaurant needs.",
+    Created: "29 aug 2024",
+    Technologies: "HTML, CSS, JavaScript",
+    Role: "Front End",
+    link: "https://github.com/Dulithapathum/Responsive-Restaurant-Website.git",
   },
 ];
 
