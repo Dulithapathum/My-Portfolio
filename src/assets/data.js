@@ -1,70 +1,37 @@
 import Project01 from "./portfolio/1.jpg";
 import Project02 from "./portfolio/2.jpg";
 import Project03 from "./portfolio/3.jpg";
-import Project04 from "./portfolio/4.jpg";
-import Project05 from "./portfolio/5.jpg";
-import Project06 from "./portfolio/6.jpg";
 import Profile01 from "./About.png";
 export const Projects = [
   {
     id: 1,
     img: Project01,
-    title: "Shop Web Site",
-    desc: "Developed a dark restaurant website with menu display, online reservations, and contact information. Focused on user-friendly navigation and aesthetic design.",
-    Created: "4 Dec 2020",
-    Technologies: "HTML, CSS, React",
-    Role: "Frontend",
-    link: "https://www.productlanding.comdfvvvvvvvvvvvvvvvvvvvvvvvvvvvvv",
+    title: "Web Design Company",
+    desc: "I designed this WordPress site for my personal web design company, showcasing my expertise in creating professional and modern web designs.",
+    Created: "20 Jan 2024",
+    Technologies: "WordPress",
+    Role: "Full Stack",
+    link: "https://pixelpro.lk",
   },
   {
     id: 2,
     img: Project02,
-    title: "Portfolio Website",
-    desc: "Designed and implemented a personal portfolio website showcasing projects, skills, and work experience. Integrated dynamic animations.",
-    Created: "15 Mar 2021",
-    Technologies: "HTML, CSS, JavaScript",
+    title: "Clothing Store ",
+    desc: "Developed a WordPress-based clothing store featuring a seamless eCommerce experience and an integrated affiliate program to incentivize product promotion. The store showcases a variety of products with intuitive navigation, powered by WooCommerce for secure transactions. Designed with a modern aesthetic to attract and engage online shoppers.",
+    Created: "15 Jun 2024",
+    Technologies: "WordPress",
     Role: "Full Stack",
-    link: "https://www.myportfolio.com",
+    link: "https://onlinethogakade.lk",
   },
   {
     id: 3,
     img: Project03,
-    title: "E-Commerce Platform",
-    desc: "Built an online store featuring product categories, a shopping cart, and secure checkout. Optimized performance for high user engagement.",
-    Created: "12 Jul 2021",
-    Technologies: "React, Redux, Firebase",
-    Role: "Frontend",
-    link: "https://www.onlinestore.com",
-  },
-  {
-    id: 4,
-    img: Project04,
-    title: "Task Management App",
-    desc: "Developed a task management web app allowing users to create, edit, and track tasks. Implemented responsive design for mobile and desktop devices.",
-    Created: "9 Sep 2021",
-    Technologies: "Vue.js, Node.js, MongoDB",
+    title: "Clothing Store ",
+    desc: "Created a feature-rich online clothing store with product categories, shopping cart functionality, secure checkout. Optimized the site for high user engagement and fast performance, ensuring a smooth shopping experience for customers.",
+    Created: "12 Nov 2024",
+    Technologies: "WordPress",
     Role: "Full Stack",
-    link: "https://www.taskmanager.com",
-  },
-  {
-    id: 5,
-    img: Project05,
-    title: "Blog Platform",
-    desc: "Created a multi-user blogging platform with post creation, commenting, and profile customization features. Enhanced SEO for better visibility.",
-    Created: "20 Jan 2022",
-    Technologies: "WordPress, PHP, MySQL",
-    Role: "Backend",
-    link: "https://www.blogsite.com",
-  },
-  {
-    id: 6,
-    img: Project06,
-    title: "Weather Forecast App",
-    desc: "Implemented a weather forecasting application with real-time data and geolocation-based weather display. Integrated an API for accurate weather information.",
-    Created: "3 May 2022",
-    Technologies: "Angular, TypeScript, REST API",
-    Role: "Frontend",
-    link: "https://www.weatherapp.com",
+    link: "https://flich.lk",
   },
 ];
 
