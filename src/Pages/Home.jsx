@@ -20,9 +20,14 @@ const Home = () => {
           <Link to="/about" className="custom-link ">
             <small>More about me</small>
           </Link>
-          <Link to="/portfolio" className="custom-link">
-            <small>Portfolio</small>
-          </Link>
+          <a
+            href="Dulitha Pathum CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="custom-link"
+          >
+            <small>Download CV</small>
+          </a>
         </div>
       </div>
       <div className="lg:order-2 order-1">

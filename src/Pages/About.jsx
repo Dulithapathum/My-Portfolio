@@ -138,9 +138,14 @@ const About = () => {
             </div>
           </div>
           <div className="flex w-full space-x-8 mb-6 justify-evenly lg:justify-normal">
-            <Link to={"/"} className="custom-link text-[15px] px-4 sm:px-10 ">
+            <a
+              href="Dulitha Pathum CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="custom-link text-[15px] px-4 sm:px-10 "
+            >
               Download CV
-            </Link>
+            </a>
             <Link
               to={"/contact"}
               className="custom-link text-[15px] px-4 sm:px-10"
