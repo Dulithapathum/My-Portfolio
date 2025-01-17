@@ -165,7 +165,7 @@ export const UserProfile = {
     },
     {
       year: "2021 - 2024",
-      position: "Official Photographer",
+      position: "Photographer",
       company: "Pixora By FOT, University of Sri Jayewardenepura",
       desc: "I worked as a photographer at university events, covering various occasions such as graduations and other campus activities. This role allowed me to capture key moments and memories, improving my photography and event coverage skills.",
     },
