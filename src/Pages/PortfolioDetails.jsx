@@ -57,7 +57,7 @@ const PortfolioDetails = () => {
       </p>
       <Link
         to={`/portfolio/`}
-        className="custom-link px-8 py-1 text-lg mb-4 sm:mb-0 "
+        className="custom-link text-[18px] py-[4px] px-[28px] rounded-[20px] sm:text-[19px]  sm:py-[8px] sm:px-[36px] sm:rounded-[30px]  mb-4 "
       >
         Back
       </Link>

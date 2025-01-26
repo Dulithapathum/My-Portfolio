@@ -23,7 +23,7 @@ const PortfolioItem = ({ item }) => {
       </div>
       <h1 className="text-lg font-semibold capitalize mt-2  ">{item.title}</h1>
       <button
-        className="custom-link py-2 px-6 text-[16px] my-3"
+        className="custom-link text-[16px] py-[5px] px-[18px] rounded-[20px] sm:text-[16px]  sm:py-[6px] sm:px-[30px] sm:rounded-[30px]  my-3"
         onClick={viewProject}
       >
         View Project
