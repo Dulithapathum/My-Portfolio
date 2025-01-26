@@ -1,1 +1,0 @@
-24|       <h1 className="text-lg font-semibold capitalize mt-2  ">{item.title}</h1>

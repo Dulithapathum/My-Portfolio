@@ -142,13 +142,13 @@ const About = () => {
               href="Dulitha Pathum CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="custom-link text-[15px] px-4 sm:px-10 "
+              className="custom-link text-[13px] py-[4px] px-[10px] rounded-[20px] sm:text-[19px]  sm:py-[8px] sm:px-[36px] sm:rounded-[30px] "
             >
               Download CV
             </a>
             <Link
               to={"/contact"}
-              className="custom-link text-[15px] px-4 sm:px-10"
+              className="custom-link text-[13px] py-[4px] px-[10px] rounded-[20px] sm:text-[19px]  sm:py-[8px] sm:px-[36px] sm:rounded-[30px] "
             >
               Contact Me
             </Link>

@@ -17,14 +17,17 @@ const Home = () => {
         </h1>
         <h2 className="text-2xl">{UserProfile.role}</h2>
         <div className="flex gap-5 mt-4 justify-center lg:justify-normal">
-          <Link to="/about" className="custom-link ">
+          <Link
+            to="/about"
+            className="custom-link text-[13px] py-[3px] px-[13px] rounded-[20px] sm:text-[19px]  sm:py-[8px] sm:px-[36px] sm:rounded-[30px] "
+          >
             <small>More about me</small>
           </Link>
           <a
             href="Dulitha Pathum CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="custom-link"
+            className="custom-link text-[13px] py-[3px] px-[13px] rounded-[20px] sm:text-[19px]  sm:py-[8px] sm:px-[36px] sm:rounded-[30px] "
           >
             <small>Download CV</small>
           </a>
