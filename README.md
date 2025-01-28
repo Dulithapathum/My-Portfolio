@@ -1,4 +1,5 @@
 # Personal Portfolio Website
+![screencapture-my-portfolio-yb1h-vercel-app-2025-01-28-18_24_36](https://github.com/user-attachments/assets/6904ca4c-9d38-40a8-b7a9-8bda48be19b0)
 
 A modern, responsive personal portfolio website built with React, Vite, and Tailwind CSS. Features smooth animations, responsive design, and a clean user interface.
 
