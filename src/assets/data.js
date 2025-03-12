@@ -9,6 +9,7 @@ import Project08 from "./portfolio/8.webp";
 import Project09 from "./portfolio/9.webp";
 import Project10 from "./portfolio/10.webp";
 import Project11 from "./portfolio/11.webp";
+import Project12 from "./portfolio/12.webp";
 
 import Profile01 from "./About.webp";
 export const Projects = [
@@ -112,6 +113,26 @@ export const Projects = [
     Technologies: "HTML, CSS, JavaScript",
     Role: "Front End",
     link: "https://github.com/Dulithapathum/Responsive-Restaurant-Website.git",
+  },
+  {
+    id: 11,
+    img: Project11,
+    title: "Responsive sidebar navigation",
+    desc: "The Sidebar in HTML and CSS project features a sleek and responsive navigation menu with smooth sliding animations, a dynamic gradient background, and interactive social media icons using BoxIcons. Built with HTML, CSS, and Google Fonts (Poppins), this sidebar enhances user experience with a modern, animated design. It can be easily customized by modifying the sidebar links, icons, colors, and animations.",
+    Created: "01 DEC 2023",
+    Technologies: "HTML, CSS, JavaScript",
+    Role: "Front End",
+    link: "https://github.com/Dulithapathum/Sidebar-in-HTML-and-CSS.git",
+  },
+  {
+    id: 12,
+    img: Project12,
+    title: "Stream Movie Website",
+    desc: "The Stream Movie Website is a modern and responsive platform for discovering and streaming popular movies. Built with React.js and Tailwind CSS, it fetches real-time movie data from The Movie Database (TMDb) API to display top-rated movies with interactive hover effects.",
+    Created: "14 Jun 2024",
+    Technologies: "React.js,Tailwind CSS,",
+    Role: "Front End",
+    link: "https://github.com/Dulithapathum/Stream-Movie-Website.git",
   },
 ];
 
