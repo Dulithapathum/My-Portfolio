@@ -1,16 +1,16 @@
-import Project01 from "./portfolio/1.jpg";
-import Project02 from "./portfolio/2.jpg";
-import Project03 from "./portfolio/3.jpg";
-import Project04 from "./portfolio/4.jpg";
-import Project05 from "./portfolio/5.jpg";
-import Project06 from "./portfolio/6.jpg";
-import Project07 from "./portfolio/7.jpg";
-import Project08 from "./portfolio/8.jpg";
-import Project09 from "./portfolio/9.jpg";
-import Project10 from "./portfolio/10.jpg";
-import Project11 from "./portfolio/11.jpg";
+import Project01 from "./portfolio/1.webp";
+import Project02 from "./portfolio/2.webp";
+import Project03 from "./portfolio/3.webp";
+import Project04 from "./portfolio/4.webp";
+import Project05 from "./portfolio/5.webp";
+import Project06 from "./portfolio/6.webp";
+import Project07 from "./portfolio/7.webp";
+import Project08 from "./portfolio/8.webp";
+import Project09 from "./portfolio/9.webp";
+import Project10 from "./portfolio/10.webp";
+import Project11 from "./portfolio/11.webp";
 
-import Profile01 from "./About.png";
+import Profile01 from "./About.webp";
 export const Projects = [
   {
     id: 1,
