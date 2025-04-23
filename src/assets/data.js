@@ -10,7 +10,12 @@ import Project09 from "./portfolio/9.webp";
 import Project10 from "./portfolio/10.webp";
 import Project11 from "./portfolio/11.webp";
 import Project12 from "./portfolio/12.webp";
-
+import Project13 from "./portfolio/13.webp";
+import Project14 from "./portfolio/14.webp";
+import Project15 from "./portfolio/15.webp";
+import Project16 from "./portfolio/16.webp";
+import Project17 from "./portfolio/17.webp";
+import Project18 from "./portfolio/18.webp";
 import Profile01 from "./About.webp";
 export const Projects = [
   {
@@ -133,6 +138,67 @@ export const Projects = [
     Technologies: "React.js,Tailwind CSS,",
     Role: "Front End",
     link: "https://github.com/Dulithapathum/Stream-Movie-Website.git",
+  },
+  {
+    id: 13,
+    img: Project13,
+    title: "Authentication System ",
+    desc: "This full-stack web application demonstrates a robust and secure authentication system built with modern best practices. It includes complete user authentication workflows such as signup, login, logout, email verification, and password reset functionalities.The backend is powered by Node.js, Express, and MongoDB, with JWT for secure token management. It also integrates Mailtrap for sending transactional emails like verification and password reset instructions.The frontend, built with a modern JavaScript framework (like React or Vue), provides intuitive and responsive UIs for signup, login, verification, dashboard access, and password management. Protected routes ensure only verified users can access restricted areas.",
+    Created: "19 Dec 2024",
+    Technologies: "React.js,Tailwind CSS,Node js,express js,Mongo DB",
+    Role: "Full Stack",
+    link: "https://github.com/Dulithapathum/MERN-Advance-Authentication-System.git",
+  },
+  {
+    id: 14,
+    img: Project14,
+    title: "Habit Tracker",
+    desc: "Habit Tracker is a responsive web application that helps users track their daily and weekly habits, set goals, and visualize their progress. Built using React, TypeScript, and Redux Toolkit, the app features a sleek interface powered by Material UI. Key features include habit creation, toggling completion states, and persistent data storage using localStorage. A stats dashboard for streaks and insights is also in development.",
+    Created: "20 jan 2025",
+    Technologies: "React, TypeScript, Redux Toolkit, Material UI, localStorage",
+    Role: "Frontend Developer",
+    link: "hhttps://github.com/Dulithapathum/Habit-Tracker.git",
+  },
+  {
+    id: 15,
+    img: Project15,
+    title: "My Portfolio Website",
+    desc: "A modern and responsive personal portfolio built with React, Vite, and Tailwind CSS. It features glassmorphism design, smooth page transitions using Framer Motion, and sections like Home, About, Portfolio, and Contact. The site includes social media integration, a detailed project showcase, and an interactive skills timeline.",
+    Created: "05 Feb 2025",
+    Technologies:
+      "React, Vite, Tailwind CSS, Framer Motion, React Router DOM, React Icons",
+    Role: "Frontend Developer",
+    link: "https://github.com/Dulithapathum/My-Portfolio.git",
+  },
+  {
+    id: 16,
+    img: Project16,
+    title: "Software Company Website ",
+    desc: "Ayist Group is a modern software company based in Poland, offering AI-powered solutions, immersive tech, and enterprise software. I rebuilt their entire company website using WordPress with custom PHP, CSS, and JavaScript. The redesign focused on improving UI/UX, implementing on-page SEO best practices, enhancing website security, and integrating automated backups for reliability. The result is a fast, responsive, and user-friendly corporate platform that effectively showcases their services and products.",
+    Created: "02 April 2025",
+    Technologies: "WordPress, PHP, CSS, JavaScript",
+    Role: "WordPress Developer",
+    link: "https://ayistgroup.com",
+  },
+  {
+    id: 17,
+    img: Project17,
+    title: "AI BG Remover",
+    desc: "AI BG Remove App is a full-stack SaaS application that uses advanced AI to remove image backgrounds with a single click. Built with React JS and Clerk for authentication, this project delivers a clean, fast, and user-friendly interface. Users can upload images, get instant background removal results, and manage their image history. Designed as a modern AI tool with commercial potential, the app showcases strong integration of frontend UI, backend logic, and third-party services.",
+    Created: "22 April 2025",
+    Technologies: "React JS, Clerk, Tailwind CSS, Node.js, Express.js, AI API",
+    Role: "Full Stack Developer",
+    link: "https://github.com/Dulithapathum/AI-Bg-Remove-App.git",
+  },
+  {
+    id: 18,
+    img: Project18,
+    title: "Travel & Tourism Website",
+    desc: "WasaVilla and Tours is a beautifully crafted tourism website designed to promote travel packages, villa stays, and guided tours. Developed using WordPress with custom PHP, CSS, and JavaScript enhancements, the site offers a smooth booking experience and visually engaging layouts. I focused on delivering a mobile-friendly, SEO-optimized platform with strong UI/UX, security integrations, and regular backups to ensure reliability for both travelers and administrators.",
+    Created: "10 Mar 2025",
+    Technologies: "WordPress, PHP, CSS, JavaScript",
+    Role: "WordPress Developer",
+    link: "https://www.wasavillaandtours.lk",
   },
 ];
 
