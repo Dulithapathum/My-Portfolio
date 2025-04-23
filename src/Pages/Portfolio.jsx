@@ -14,7 +14,7 @@ const Portfolio = () => {
           Recent Work
         </h1>
         <div className=" flex flex-wrap justify-evenly ">
-          {Projects.map((item) => (
+          {[...Projects].reverse().map((item) => (
             <PortfolioItem key={item.id} item={item} />
           ))}
         </div>
