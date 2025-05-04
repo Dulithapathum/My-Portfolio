@@ -16,6 +16,10 @@ import Project15 from "./portfolio/15.webp";
 import Project16 from "./portfolio/16.webp";
 import Project17 from "./portfolio/17.webp";
 import Project18 from "./portfolio/18.webp";
+import Project19 from "./portfolio/19.webp";
+import Project20 from "./portfolio/20.webp";
+import Project21 from "./portfolio/21.webp";
+
 import Profile01 from "./About.webp";
 export const Projects = [
   {
@@ -199,6 +203,39 @@ export const Projects = [
     Technologies: "WordPress, PHP, CSS, JavaScript",
     Role: "WordPress Developer",
     link: "https://www.wasavillaandtours.lk",
+  },
+  {
+    id: 19,
+    img: Project19,
+    title: "Classroom Scheduling System",
+    desc: "Built Reserve-It, a smart classroom scheduling web application using Next.js and TypeScript to enable seamless booking with real-time access and secure user authentication.  Designed and implemented a responsive front-end UI using Tailwind CSS, ensuring accessibility across devices. Developed the back-end API with Node.js and Express.js, and managed data with MongoDB to handle booking logic, availability tracking, and user roles (admin, staff, students). Integrated features like email notifications, conflict detection, and role-based access control to streamline classroom usage and improve administrative efficiency. Contributed as a Full Stack Developer, handling both UI/UX and server-side logic to deliver an optimized, scalable classroom reservation system.",
+    Created: "15 Feb 2025",
+    Technologies:
+      "Next.js, TypeScript, MongoDB, Express.js, Tailwind CSS, Node.js",
+    Role: "Full Stack Developer",
+    link: "https://github.com/RavanaDevs/classroom-booking-system-backend.git",
+  },
+  {
+    id: 20,
+    img: Project20,
+    title: "Multi-User Blogging Platform",
+    desc: "Developed a full-featured MERN stack blogging platform with secure multi-user support, enabling users to register, authenticate via JWT, manage profiles, and upload avatars. Users can create, read, update, and delete blog posts with thumbnail image uploads, category organization, and rich-text content editing. The platform supports user-specific post management, secure password hashing with bcrypt, and responsive design using Tailwind CSS. Robust backend architecture includes Express.js, MongoDB with Mongoose, and secure file handling with Express-Fileupload. Built with Vite for optimized performance, and deployed backend-ready for Vercel.",
+    Created: "28 Nov 2024",
+    Technologies:
+      "React, JavaScript, MongoDB, Express.js, Tailwind CSS, Node.js",
+    Role: "Full Stack Developer",
+    link: "https://github.com/Dulithapathum/MERN-Blog-App.git",
+  },
+  {
+    id: 21,
+    img: Project21,
+    title: "Cleaning Service Booking ",
+    desc: "A full-stack web application for booking and managing home cleaning services. Built with the MERN stack, it allows users to register, log in securely via JWT, and manage bookings for services like deep cleaning and carpet cleaning.Includes user dashboards for creating, viewing, updating, and canceling bookings. Backend features include secure password hashing, protected API routes, and MongoDB for persistent data storage. The system is designed for future scalability with plans for an admin panel to manage users, bookings, and services. Frontend is responsive and deployed on Vercel.",
+    Created: "28 Nov 2024",
+    Technologies:
+      "React, JavaScript, MongoDB, Express.js, Tailwind CSS, Node.js",
+    Role: "Full Stack Developer",
+    link: "https://github.com/Dulithapathum/Cleaning-Service-Management-System.git",
   },
 ];
 
